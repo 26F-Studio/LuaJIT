@@ -14,3 +14,7 @@ Please point your favorite browser to:
 
  doc/luajit.html
 
+## Install luajit with scoop
+```
+scoop install https://raw.githubusercontent.com/26F-Studio/LuaJIT/scoop/luajit.json
+```

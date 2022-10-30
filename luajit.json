@@ -1,0 +1,15 @@
+{
+    "version": "2.1.0",
+    "description": "LuaJIT is a Just-In-Time (JIT) compiler for the Lua programming language.",
+    "homepage": "https://luajit.org/",
+    "license": "MIT",
+    "url": "https://github.com/26F-Studio/LuaJIT/releases/download/v2.1.0/luajit-v2.1.0-win64.zip",
+    "hash": "0f098d3e4648ab470d73dac96b65ebf045c779692991baad7b26222be4f66fd7",
+    "bin": "luajit.exe",
+    "checkver": {
+        "github": "https://github.com/26F-Studio/LuaJIT"
+    },
+    "autoupdate": {
+        "url": "https://github.com/26F-Studio/LuaJIT/releases/download/v$version/luajit-v$version-win64.zip"
+    }
+}
